@@ -1,0 +1,21 @@
+h1{
+    color:pink
+}
+
+*{
+    box-sizing: border-box
+    ;
+}
+
+/* cascading -> 폭포수처럼 내려오는
+같은 태그에 대한 규칙이 있는 경우 -> 마지막으로 작성된 규칙 적용
+
+inheritance -> 상속
+
+Specificity -> 우선순위
+CSS 규칙이 서로 충돌할 때 어떤 것을 우선으로 적용할지
+
+1) HTML 요소의 style 속성
+2) id로 선택된 요소
+3) class로 선택된 요소
+4) 태그의 이름으로 선택된 요소
